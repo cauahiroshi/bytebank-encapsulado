@@ -1,8 +1,10 @@
+package teste; 
+
 public class TesteContas {
 
 	public static void main(String[] args) {
 		
-		Conta conta = new Conta(1337, 23334);
+		modelo.Conta conta = new modelo.Conta(1337, 23334);
 		
 		conta.deposita(200.0);
 		
@@ -12,7 +14,7 @@ public class TesteContas {
 		
 		System.out.println(conta.getAgencia());
 		
-		System.out.println("o total de contas é : " + Conta.getTotal());
+		System.out.println("o total de contas : " + modelo.Conta.getTotal());
 		
 	}
 	
